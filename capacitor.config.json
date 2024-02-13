@@ -1,0 +1,8 @@
+{
+  "appId": "com.pls.app",
+  "appName": "pls",
+  "webDir": "out",
+  "server": {
+    "androidScheme": "https"
+  }
+}
