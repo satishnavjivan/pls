@@ -585,9 +585,9 @@ const SingleProduct = ({ singleProduct, reviews, options }) => {
 														var messageText  = options?.nj_display_box_member_only ?? '';
 														Membersonly = getMemberOnlyProduct(options,yourBrowsingHistory[key],messageText);
 													}
-												return (
+												/*return (
 													<Product key={ yourBrowsingHistory[key]?.id } product={yourBrowsingHistory[key]} Membersonly={Membersonly} tokenValid={tokenValid} options={options} customerData={customerData} setCustomerData={setCustomerData}/>
-												)
+												)*/
 											}
 										})
 									}
