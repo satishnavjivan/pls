@@ -12,7 +12,7 @@ import { useEffect } from 'react';
 import Warranty_tab from './Warranty_tab';
 import Shipping_guide_tab from './Shipping_guide_tab';
 import Reward_points_tab from './Reward_points_tab';
-import Product from '../products/product';
+import Product from '../products/productp';
 import Review from './../review/Review';
 import { isEmpty } from 'lodash';
 import { getMemberOnlyProduct, getNewProductTag, storeYourBrowsingHistory } from '../../utils/customjs/custome';

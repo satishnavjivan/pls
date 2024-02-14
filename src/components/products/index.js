@@ -1,5 +1,5 @@
 import { debounce, isArray, isEmpty } from 'lodash';
-import Product from './product';
+import Product from './productp';
 import { useState,useEffect  } from 'react';
 import jQuery from "jquery";
 import ReactPaginate from 'react-paginate';
