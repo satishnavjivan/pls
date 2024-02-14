@@ -11,7 +11,7 @@ import Loader from "./../../public/loader.gif";
 import validateAndSanitizeCheckoutFormCustomers from '../../src/validator/customers';
 import cx from 'classnames';
 import InputField from '../../src/components/checkout/form-elements/input-field';
-import Datepicker from "react-tailwindcss-datepicker"; 
+
 import Router from "next/router";
 import Sidebar from '../../src/components/my-account/sidebar';
 import { updateCustomers } from '../../src/utils/apiFun/customer';
@@ -263,12 +263,7 @@ console.log('message',message);
 								errors={errors}
 								containerClassNames="w-full overflow-hidden sm:my-2 sm:px-2 md:w-1/2"
 							/>
-							<Datepicker 
-							useRange={false} 
-							asSingle={true} 
-							value={input?.customer_birthday} 
-							onChange={handleOnChange} 
-							/> 
+							
                         	<div className="woo-next-place-order-btn-wrap mt-5">
 								<button
 									disabled={ loading }
