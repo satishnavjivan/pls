@@ -1,5 +1,5 @@
 import { debounce, isArray, isEmpty } from 'lodash';
-import Productp from './product';
+import Product from './product';
 import { useState,useEffect  } from 'react';
 import jQuery from "jquery";
 import ReactPaginate from 'react-paginate';
@@ -950,7 +950,7 @@ const encodeDataToURL = (data) => {
 					{
 						currentProduct.map( product => {
 								return (
-									<Productp key={ product?.id } product={product} tokenValid={tokenValid} options={options}  customerData={customerData} setCustomerData={setCustomerData}/>
+									<Product key={ product?.id } product={product} tokenValid={tokenValid} options={options}  customerData={customerData} setCustomerData={setCustomerData}/>
 								)
 						})
 					}
